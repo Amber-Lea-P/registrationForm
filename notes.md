@@ -29,3 +29,5 @@ A[a-z0-5]{8,}
 The above is a regular expression which matches eight or more lowercase letters or the digits 0 to 5.
 
 You only want one radio input to be selectable at a time. To do this the form must know the radio buttons are related. This can be accomplished by giving them the same name attribute. 
+
+Follow accessibility best practices by linking the input elements and the label elements
