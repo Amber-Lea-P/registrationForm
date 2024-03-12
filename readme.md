@@ -1,0 +1,1 @@
+This is a review of how to make a registration form in HTML and CSS. This is part of the Responsive Web Development certificaiton course offered by freeCodeCamp.org. 

@@ -45,3 +45,14 @@ Submitting the form with an option selected would not send a useful value to the
 The textarea element acts like an input element of type text, but comes with the added benefit of being able to receive multi-line text, and an initial number of text rows and columns. Note that the textarea requires a closing tag.
 
 With form submissions, it is useful, and good practice, to provide each submittable element with a name attribute. This attribute is used to identify the element in the form submission.
+
+Center the h1 and p elements by giving them a margin of 1em auto. Then, align their text in the center as well
+
+Center the form element, by giving it a margin of 0 auto. Then, fix its size to a maximum width of 500px, and a minimum width of 300px. In between that range, allow it to have a width of 60vw.
+
+You can select the last element of a specific type using the last-of-type CSS pseudo-class, like this:
+
+p:last-of-type { }
+That will select the last p element.
+
+Most browsers inject their own default CSS properties and values for different elements. If you look closely, you might be able to notice the file input is smaller than the other text input elements. By default, a padding of 1px 2px is given to input elements you can type in.
